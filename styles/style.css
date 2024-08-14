@@ -1,0 +1,300 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+.inter {
+    font-family: "Inter", sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+/* common styles */
+.container{
+    max-width: 80%;
+    margin: 0 auto;
+}
+.color-1{
+    color: orange;
+}
+.color-2{
+    color: white;
+}
+.display-flex{
+    display: flex;
+}
+.btn {
+    background-color: tomato;
+    color: white;
+    border-radius: 5px;
+    padding: 15px 30px;
+    font-size: .9rem;
+    text-decoration: none;
+}
+img{
+    width: 100%;
+}
+/* banner styles */
+.banner-container{
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+  
+}
+.banner-title {
+    font-size: 3rem;
+    font-weight: 700;
+    position: relative;
+    padding-left: 15px;
+}
+.banner-title::after{
+    position: absolute;
+    content:'';
+    top: 0;
+    left: 0;
+    width: 3px;
+    height: 107px;
+    background-color: tomato;
+    border-radius: 10px;
+}
+.banner-description{
+   font-size: 1.1rem; 
+   line-height: 24px;
+   padding: 30px 0 40px 0;
+}
+.banner{
+    width: 50%;
+}
+.banner-subtitle {
+    margin-top: 50px;
+    font-weight: 400;
+    font-size: .9rem;
+}
+.banner-img{
+  width: 50%;
+}
+/* card styles */
+.mission-title {
+    text-align: center;
+    font-size: 2.75rem;
+    font-weight: 800;
+    margin: 30px 0;
+}
+.card-container{
+    gap: 30px;
+}
+.card-title {
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+}
+.card-description{
+    line-height: 24px;
+}
+#card-1{
+    
+    background-color: whitesmoke;
+}
+#card-2{
+    
+    background-color:pink;
+}
+#card-3{
+    
+    background-color: blanchedalmond;
+}
+.card {
+    border-radius: 20px;
+    padding: 23px;
+}
+.card img {
+    height: 150px;
+    width: 150px;
+}
+/* develop styles */
+.develop-container {
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+    margin: 70px 0;
+}
+.develop-title {
+    font-weight: 800;
+    font-size: 2rem;
+}
+.develop-description {
+    line-height: 24px;
+    margin: 20px 0 30px 0;
+}
+
+.develop-img img {
+    width: 350px;
+    background-image: url(../images/shapes/shape-1.png);
+}
+.develop-img {
+    height: 350px;
+    position: relative;
+}
+.develop-img::after {
+    position: absolute;
+    content: '';
+    top: 45px;
+    left: -81px;
+    height: 200px;
+    width: 200px;
+    background-image: url(../images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+}
+/* global styles */
+.global-container {
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+    margin: 70px 0;
+}
+.global-title {
+    font-size: 2rem;
+    font-weight: 800;
+}
+.global-description {
+    line-height: 24px;
+    margin: 20px 0 30px 0;
+}
+
+.global-img img {
+    width: 350px;
+  
+}
+.global-img {
+    height: 350px;
+    position: relative;
+}
+.global-img::after {
+    position: absolute;
+    content: '';
+    bottom: -76px;
+    right: -69px;
+    height: 175px;
+    width: 175px;
+    background-image: url(../images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+}
+/* corona styles */
+.corona-title {
+    font-size: 2.5rem;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 70px;
+}
+.corona-container{
+    justify-content: space-between;
+    align-items: center;
+    gap: 200px;
+}
+.corona-app-title{
+    font-size: 3rem;
+    font-weight: 800;  
+}
+.corona-app-description {
+    line-height: 24px;
+    margin: 20px 0 30px 0;
+}
+.corona-app-img {
+    height: 480px;
+    margin-left: 121px;
+    position: relative;
+}
+.corona-app-img img{
+    width: 300px;
+
+}
+.corona-app-img::after {
+    position: absolute;
+    content: '';
+    top: -35px;
+    left: -55px;
+    width: 150px;
+    height: 150px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+    background-color: #ffa500;
+    border-radius: 20px;
+}
+.corona-app-img::before {
+    position: absolute;
+    content: '';
+    bottom: -53px;
+    left: -8px;
+    width: 85px;
+    height: 85px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+    background-color: #ffa500;
+    border-radius: 25px;
+}
+.corona-img-shape {
+    position: absolute;
+    right: 2px;
+    top: 69%;
+    width: 85px;
+    height: 85px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+    background-color: #ffa500;
+    border-radius: 25px;
+}
+/* footer styles */
+.footer-container {
+    background-color: black;
+    text-align: center;
+}
+.footer-title {
+    margin-top: 100px;
+    padding-top: 50px;
+}
+.footer-description{
+    font-size: .9rem;
+   padding: 40px 0;
+}
+@media screen and (max-width:576px) {
+   .banner-container,
+   .card-container,
+   .develop-container,
+   .corona-container{
+    flex-direction: column;
+   } 
+}
+.banner {
+    width: 100%;
+}
+.banner-title {
+    font-size: 1.75rem;
+    margin-top: 50px;
+}
+.banner-title::after {
+    height: 60px;
+}
+.mission-title {
+    font-size: 1.75rem;
+}
+.global-container{
+    flex-direction: column-reverse;
+   } 
+   .corona-title {
+    font-size: 1.5rem;
+}
+.corona-app-title {
+    font-size: 1.75rem;
+   
+}
+   .corona-app-img {
+   margin-left: 0;  
+}
+@media screen and (min-width:576px) and (max-width:992px){
+    .global-container{
+        flex-direction: row;
+       } 
+}
